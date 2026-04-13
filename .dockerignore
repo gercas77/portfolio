@@ -1,0 +1,12 @@
+node_modules
+.next
+.git
+.github
+.vscode
+.cursor
+.turbo
+infra
+*.md
+*.log
+.env*
+.DS_Store

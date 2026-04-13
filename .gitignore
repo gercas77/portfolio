@@ -1,0 +1,58 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Build / cache
+.turbo
+.next
+dist
+out
+build
+*.tsbuildinfo
+
+# Env
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE (opcional; quita estas líneas si quieres versionar ajustes del equipo)
+.idea
+*.swp
+*.swo
+
+# Vercel
+.vercel
+
+# Testing / coverage
+coverage
+.nyc_output
+
+# Terraform
+infra/**/.terraform/
+infra/**/*.tfstate
+infra/**/*.tfstate.*
+infra/**/terraform.tfvars
+infra/**/*.auto.tfvars
+infra/**/crash.log
+infra/**/crash.*.log
+infra/**/override.tf
+infra/**/override.tf.json
+infra/**/*_override.tf
+infra/**/*_override.tf.json
+
+# Misc
+*.pem

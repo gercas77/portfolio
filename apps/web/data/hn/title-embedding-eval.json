@@ -1,0 +1,2119 @@
+{
+    "model": "text-embedding-3-small",
+    "topK": 5,
+    "generatedAt": "2026-04-13T01:31:42.605Z",
+    "queries": [
+        {
+            "id": "ai-coding-agents",
+            "query": "AI coding agents",
+            "notes": "Developer tools and agentic coding workflows.",
+            "embeddingTokensIn": 3,
+            "embeddingEstimatedCostUsd": 6e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.537175,
+                    "hnId": 47733217,
+                    "title": "Exploiting the most prominent AI agent benchmarks",
+                    "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
+                    "score": 488,
+                    "author": "Anon84",
+                    "descendants": 124,
+                    "hnPostedAt": "2026-04-11T19:15:56.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.472246,
+                    "hnId": 47743700,
+                    "title": "European AI. A playbook to own it",
+                    "url": "https://europe.mistral.ai/",
+                    "score": 134,
+                    "author": "hjouneau",
+                    "descendants": 67,
+                    "hnPostedAt": "2026-04-12T19:51:06.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.369262,
+                    "hnId": 47717690,
+                    "title": "Cooperative Vectors Introduction",
+                    "url": "https://www.evolvebenchmark.com/blog-posts/cooperative-vectors-introduction",
+                    "score": 44,
+                    "author": "JasperBekkers",
+                    "descendants": 2,
+                    "hnPostedAt": "2026-04-10T13:16:12.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.362231,
+                    "hnId": 47730194,
+                    "title": "Cirrus Labs to join OpenAI",
+                    "url": "https://cirruslabs.org/",
+                    "score": 277,
+                    "author": "seekdeep",
+                    "descendants": 139,
+                    "hnPostedAt": "2026-04-11T13:01:34.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.355981,
+                    "hnId": 47732402,
+                    "title": "The APL programming language source code (2012)",
+                    "url": "https://computerhistory.org/blog/the-apl-programming-language-source-code/",
+                    "score": 77,
+                    "author": "tosh",
+                    "descendants": 26,
+                    "hnPostedAt": "2026-04-11T17:34:10.000Z"
+                }
+            ]
+        },
+        {
+            "id": "browser-automation",
+            "query": "browser automation",
+            "notes": "Automation frameworks, browser control, testing, scraping.",
+            "embeddingTokensIn": 2,
+            "embeddingEstimatedCostUsd": 4e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.289505,
+                    "hnId": 47733217,
+                    "title": "Exploiting the most prominent AI agent benchmarks",
+                    "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
+                    "score": 488,
+                    "author": "Anon84",
+                    "descendants": 124,
+                    "hnPostedAt": "2026-04-11T19:15:56.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.274051,
+                    "hnId": 47743700,
+                    "title": "European AI. A playbook to own it",
+                    "url": "https://europe.mistral.ai/",
+                    "score": 134,
+                    "author": "hjouneau",
+                    "descendants": 67,
+                    "hnPostedAt": "2026-04-12T19:51:06.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.263813,
+                    "hnId": 47741531,
+                    "title": "Bouncer: Block \"crypto\", \"rage politics\", and more from your X feed using AI",
+                    "url": "https://github.com/imbue-ai/bouncer",
+                    "score": 38,
+                    "author": "steveharing1",
+                    "descendants": 49,
+                    "hnPostedAt": "2026-04-12T16:24:46.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.258327,
+                    "hnId": 47731506,
+                    "title": "Advanced Mac Substitute is an API-level reimplementation of 1980s-era Mac OS",
+                    "url": "https://www.v68k.org/advanced-mac-substitute/",
+                    "score": 261,
+                    "author": "zdw",
+                    "descendants": 67,
+                    "hnPostedAt": "2026-04-11T15:39:19.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.250703,
+                    "hnId": 47729634,
+                    "title": "Now is the best time to write code by hand",
+                    "url": "https://sitebloom.ch/writing/now-is-the-best-time-to-write-code-by-hand/",
+                    "score": 105,
+                    "author": "nickgreg",
+                    "descendants": 50,
+                    "hnPostedAt": "2026-04-11T11:24:41.000Z"
+                }
+            ]
+        },
+        {
+            "id": "vector-databases",
+            "query": "vector databases",
+            "notes": "Semantic search, embeddings, vector infra.",
+            "embeddingTokensIn": 2,
+            "embeddingEstimatedCostUsd": 4e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.416202,
+                    "hnId": 47717690,
+                    "title": "Cooperative Vectors Introduction",
+                    "url": "https://www.evolvebenchmark.com/blog-posts/cooperative-vectors-introduction",
+                    "score": 44,
+                    "author": "JasperBekkers",
+                    "descendants": 2,
+                    "hnPostedAt": "2026-04-10T13:16:12.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.28131,
+                    "hnId": 47671814,
+                    "title": "Network Flow Algorithms",
+                    "url": "https://www.networkflowalgs.com/",
+                    "score": 54,
+                    "author": "teleforce",
+                    "descendants": 1,
+                    "hnPostedAt": "2026-04-07T07:27:14.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.260735,
+                    "hnId": 47738094,
+                    "title": "JVM Options Explorer",
+                    "url": "https://chriswhocodes.com/vm-options-explorer.html",
+                    "score": 167,
+                    "author": "0x54MUR41",
+                    "descendants": 71,
+                    "hnPostedAt": "2026-04-12T10:29:26.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.259598,
+                    "hnId": 47672941,
+                    "title": "Pijul a FOSS distributed version control system",
+                    "url": "https://pijul.org/",
+                    "score": 189,
+                    "author": "kouosi",
+                    "descendants": 29,
+                    "hnPostedAt": "2026-04-07T10:16:38.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.24363,
+                    "hnId": 47743700,
+                    "title": "European AI. A playbook to own it",
+                    "url": "https://europe.mistral.ai/",
+                    "score": 134,
+                    "author": "hjouneau",
+                    "descendants": 67,
+                    "hnPostedAt": "2026-04-12T19:51:06.000Z"
+                }
+            ]
+        },
+        {
+            "id": "typescript-runtime",
+            "query": "TypeScript runtime",
+            "notes": "Runtimes, build tools, TS execution environments.",
+            "embeddingTokensIn": 3,
+            "embeddingEstimatedCostUsd": 6e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.316444,
+                    "hnId": 47744540,
+                    "title": "A Perfectable Programming Language",
+                    "url": "https://alok.github.io/lean-pages/perfectable-lean/",
+                    "score": 27,
+                    "author": "yuppiemephisto",
+                    "descendants": 5,
+                    "hnPostedAt": "2026-04-12T21:11:24.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.284893,
+                    "hnId": 47744510,
+                    "title": "Microsoft engineer says original Task Manager was only 80KB to run on 90s comps",
+                    "url": "https://www.tomshardware.com/software/windows/veteran-microsoft-engineer-says-original-task-manager-was-only-80kb-so-it-could-run-smoothly-on-90s-computers-original-utility-used-a-smart-technique-to-determine-whether-it-was-the-only-running-instance",
+                    "score": 13,
+                    "author": "thunderbong",
+                    "descendants": 5,
+                    "hnPostedAt": "2026-04-12T21:08:01.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.281545,
+                    "hnId": 47698455,
+                    "title": "Starfling: A one-tap endless orbital slingshot game in a single HTML file",
+                    "url": "https://playstarfling.com",
+                    "score": 610,
+                    "author": "iceberger2001",
+                    "descendants": 152,
+                    "hnPostedAt": "2026-04-09T01:52:47.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.267301,
+                    "hnId": 47732402,
+                    "title": "The APL programming language source code (2012)",
+                    "url": "https://computerhistory.org/blog/the-apl-programming-language-source-code/",
+                    "score": 77,
+                    "author": "tosh",
+                    "descendants": 26,
+                    "hnPostedAt": "2026-04-11T17:34:10.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.266646,
+                    "hnId": 47731506,
+                    "title": "Advanced Mac Substitute is an API-level reimplementation of 1980s-era Mac OS",
+                    "url": "https://www.v68k.org/advanced-mac-substitute/",
+                    "score": 261,
+                    "author": "zdw",
+                    "descendants": 67,
+                    "hnPostedAt": "2026-04-11T15:39:19.000Z"
+                }
+            ]
+        },
+        {
+            "id": "postgres-performance",
+            "query": "Postgres performance",
+            "notes": "Database tuning, query performance, indexing.",
+            "embeddingTokensIn": 3,
+            "embeddingEstimatedCostUsd": 6e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.605979,
+                    "hnId": 47731838,
+                    "title": "Keeping a Postgres Queue Healthy",
+                    "url": "https://planetscale.com/blog/keeping-a-postgres-queue-healthy",
+                    "score": 104,
+                    "author": "tanelpoder",
+                    "descendants": 26,
+                    "hnPostedAt": "2026-04-11T16:24:08.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.29949,
+                    "hnId": 47734878,
+                    "title": "High-Level Rust: Getting 80% of the Benefits with 20% of the Pain",
+                    "url": "https://hamy.xyz/blog/2026-01_high-level-rust",
+                    "score": 61,
+                    "author": "maxloh",
+                    "descendants": 75,
+                    "hnPostedAt": "2026-04-11T23:30:40.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.297894,
+                    "hnId": 47744585,
+                    "title": "Distilling 100B+ Models 40x Faster with TRL",
+                    "url": "https://huggingface.co/spaces/HuggingFaceTB/trl-distillation-trainer",
+                    "score": 8,
+                    "author": "kashifr",
+                    "descendants": 0,
+                    "hnPostedAt": "2026-04-12T21:15:30.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.2736,
+                    "hnId": 47743077,
+                    "title": "Claude Opus 4.6 accuracy on BridgeBench hallucination test drops from 83% to 68%",
+                    "url": "https://twitter.com/bridgemindai/status/2043321284113670594",
+                    "score": 31,
+                    "author": "bratao",
+                    "descendants": 1,
+                    "hnPostedAt": "2026-04-12T18:53:35.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.270081,
+                    "hnId": 47733217,
+                    "title": "Exploiting the most prominent AI agent benchmarks",
+                    "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
+                    "score": 488,
+                    "author": "Anon84",
+                    "descendants": 124,
+                    "hnPostedAt": "2026-04-11T19:15:56.000Z"
+                }
+            ]
+        },
+        {
+            "id": "developer-tooling",
+            "query": "new developer tools",
+            "notes": "Broad developer productivity and tooling.",
+            "embeddingTokensIn": 3,
+            "embeddingEstimatedCostUsd": 6e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.372805,
+                    "hnId": 47738827,
+                    "title": "Bring Back Idiomatic Design",
+                    "url": "https://essays.johnloeber.com/p/4-bring-back-idiomatic-design",
+                    "score": 433,
+                    "author": "phil294",
+                    "descendants": 218,
+                    "hnPostedAt": "2026-04-12T12:21:26.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.361579,
+                    "hnId": 47738094,
+                    "title": "JVM Options Explorer",
+                    "url": "https://chriswhocodes.com/vm-options-explorer.html",
+                    "score": 167,
+                    "author": "0x54MUR41",
+                    "descendants": 71,
+                    "hnPostedAt": "2026-04-12T10:29:26.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.327405,
+                    "hnId": 47744510,
+                    "title": "Microsoft engineer says original Task Manager was only 80KB to run on 90s comps",
+                    "url": "https://www.tomshardware.com/software/windows/veteran-microsoft-engineer-says-original-task-manager-was-only-80kb-so-it-could-run-smoothly-on-90s-computers-original-utility-used-a-smart-technique-to-determine-whether-it-was-the-only-running-instance",
+                    "score": 13,
+                    "author": "thunderbong",
+                    "descendants": 5,
+                    "hnPostedAt": "2026-04-12T21:08:01.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.323963,
+                    "hnId": 47731506,
+                    "title": "Advanced Mac Substitute is an API-level reimplementation of 1980s-era Mac OS",
+                    "url": "https://www.v68k.org/advanced-mac-substitute/",
+                    "score": 261,
+                    "author": "zdw",
+                    "descendants": 67,
+                    "hnPostedAt": "2026-04-11T15:39:19.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.323441,
+                    "hnId": 47729634,
+                    "title": "Now is the best time to write code by hand",
+                    "url": "https://sitebloom.ch/writing/now-is-the-best-time-to-write-code-by-hand/",
+                    "score": 105,
+                    "author": "nickgreg",
+                    "descendants": 50,
+                    "hnPostedAt": "2026-04-11T11:24:41.000Z"
+                }
+            ]
+        },
+        {
+            "id": "startup-fundraising",
+            "query": "startups raising money",
+            "notes": "Funding rounds, startup launches, acquisitions.",
+            "embeddingTokensIn": 4,
+            "embeddingEstimatedCostUsd": 8e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.440141,
+                    "hnId": 47736555,
+                    "title": "I run multiple $10K MRR companies on a $20/month tech stack",
+                    "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack",
+                    "score": 812,
+                    "author": "tradertef",
+                    "descendants": 464,
+                    "hnPostedAt": "2026-04-12T06:00:00.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.371445,
+                    "hnId": 47741449,
+                    "title": "SpaceX holds $603M in Bitcoin despite $5B loss stemming from xAI",
+                    "url": "https://www.coindesk.com/markets/2026/04/11/musk-s-spacex-holds-usd603-million-in-bitcoin-despite-usd5-billion-loss-stemming-from-xai",
+                    "score": 22,
+                    "author": "lexandstuff",
+                    "descendants": 8,
+                    "hnPostedAt": "2026-04-12T16:16:54.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.349713,
+                    "hnId": 47730194,
+                    "title": "Cirrus Labs to join OpenAI",
+                    "url": "https://cirruslabs.org/",
+                    "score": 277,
+                    "author": "seekdeep",
+                    "descendants": 139,
+                    "hnPostedAt": "2026-04-11T13:01:34.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.345028,
+                    "hnId": 47745120,
+                    "title": "Tech valuations are back to pre-AI boom levels",
+                    "url": "https://www.apollo.com/wealth/the-daily-spark/tech-valuations-back-to-pre-ai-boom-levels",
+                    "score": 75,
+                    "author": "akyuu",
+                    "descendants": 10,
+                    "hnPostedAt": "2026-04-12T22:13:22.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.293045,
+                    "hnId": 47741634,
+                    "title": "Building a SaaS in 2026 Using Only EU Infrastructure",
+                    "url": "https://eualternative.eu/guides/building-saas-eu-stack/",
+                    "score": 170,
+                    "author": "sparkling",
+                    "descendants": 56,
+                    "hnPostedAt": "2026-04-12T16:33:19.000Z"
+                }
+            ]
+        },
+        {
+            "id": "security-incidents",
+            "query": "security incidents",
+            "notes": "Breaches, vulnerabilities, major incidents.",
+            "embeddingTokensIn": 2,
+            "embeddingEstimatedCostUsd": 4e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.338183,
+                    "hnId": 47745230,
+                    "title": "Sam Altman's home targeted in second attack",
+                    "url": "https://sfstandard.com/2026/04/12/sam-altman-s-home-targeted-second-attack/",
+                    "score": 48,
+                    "author": "babelfish",
+                    "descendants": 70,
+                    "hnPostedAt": "2026-04-12T22:30:55.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.324601,
+                    "hnId": 47732020,
+                    "title": "Small models also found the vulnerabilities that Mythos found",
+                    "url": "https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier",
+                    "score": 1228,
+                    "author": "dominicq",
+                    "descendants": 322,
+                    "hnPostedAt": "2026-04-11T16:47:28.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.230628,
+                    "hnId": 47672941,
+                    "title": "Pijul a FOSS distributed version control system",
+                    "url": "https://pijul.org/",
+                    "score": 189,
+                    "author": "kouosi",
+                    "descendants": 29,
+                    "hnPostedAt": "2026-04-07T10:16:38.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.216223,
+                    "hnId": 47741531,
+                    "title": "Bouncer: Block \"crypto\", \"rage politics\", and more from your X feed using AI",
+                    "url": "https://github.com/imbue-ai/bouncer",
+                    "score": 38,
+                    "author": "steveharing1",
+                    "descendants": 49,
+                    "hnPostedAt": "2026-04-12T16:24:46.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.206863,
+                    "hnId": 47742461,
+                    "title": "IrDA",
+                    "url": "https://computer.rip/2026-04-11-IrDA.html",
+                    "score": 6,
+                    "author": "Sniffnoy",
+                    "descendants": 2,
+                    "hnPostedAt": "2026-04-12T17:55:28.000Z"
+                }
+            ]
+        },
+        {
+            "id": "openai-models",
+            "query": "OpenAI models",
+            "notes": "Model launches, AI API changes, OpenAI news.",
+            "embeddingTokensIn": 3,
+            "embeddingEstimatedCostUsd": 6e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.535749,
+                    "hnId": 47733217,
+                    "title": "Exploiting the most prominent AI agent benchmarks",
+                    "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
+                    "score": 488,
+                    "author": "Anon84",
+                    "descendants": 124,
+                    "hnPostedAt": "2026-04-11T19:15:56.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.492832,
+                    "hnId": 47730194,
+                    "title": "Cirrus Labs to join OpenAI",
+                    "url": "https://cirruslabs.org/",
+                    "score": 277,
+                    "author": "seekdeep",
+                    "descendants": 139,
+                    "hnPostedAt": "2026-04-11T13:01:34.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.453101,
+                    "hnId": 47744905,
+                    "title": "India's frugal AI models are a blueprint for resource-strapped nations",
+                    "url": "https://restofworld.org/2026/india-frugal-ai-sarvam-krutrim-sovereign/",
+                    "score": 8,
+                    "author": "i7l",
+                    "descendants": 1,
+                    "hnPostedAt": "2026-04-12T21:47:33.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.449115,
+                    "hnId": 47743700,
+                    "title": "European AI. A playbook to own it",
+                    "url": "https://europe.mistral.ai/",
+                    "score": 134,
+                    "author": "hjouneau",
+                    "descendants": 67,
+                    "hnPostedAt": "2026-04-12T19:51:06.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.366116,
+                    "hnId": 47744585,
+                    "title": "Distilling 100B+ Models 40x Faster with TRL",
+                    "url": "https://huggingface.co/spaces/HuggingFaceTB/trl-distillation-trainer",
+                    "score": 8,
+                    "author": "kashifr",
+                    "descendants": 0,
+                    "hnPostedAt": "2026-04-12T21:15:30.000Z"
+                }
+            ]
+        },
+        {
+            "id": "cloud-infrastructure",
+            "query": "cloud infrastructure",
+            "notes": "Infra platforms, AWS, distributed systems, cloud ops.",
+            "embeddingTokensIn": 2,
+            "embeddingEstimatedCostUsd": 4e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.510844,
+                    "hnId": 47741634,
+                    "title": "Building a SaaS in 2026 Using Only EU Infrastructure",
+                    "url": "https://eualternative.eu/guides/building-saas-eu-stack/",
+                    "score": 170,
+                    "author": "sparkling",
+                    "descendants": 56,
+                    "hnPostedAt": "2026-04-12T16:33:19.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.333425,
+                    "hnId": 47730194,
+                    "title": "Cirrus Labs to join OpenAI",
+                    "url": "https://cirruslabs.org/",
+                    "score": 277,
+                    "author": "seekdeep",
+                    "descendants": 139,
+                    "hnPostedAt": "2026-04-11T13:01:34.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.320605,
+                    "hnId": 47736555,
+                    "title": "I run multiple $10K MRR companies on a $20/month tech stack",
+                    "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack",
+                    "score": 812,
+                    "author": "tradertef",
+                    "descendants": 464,
+                    "hnPostedAt": "2026-04-12T06:00:00.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.309913,
+                    "hnId": 47672941,
+                    "title": "Pijul a FOSS distributed version control system",
+                    "url": "https://pijul.org/",
+                    "score": 189,
+                    "author": "kouosi",
+                    "descendants": 29,
+                    "hnPostedAt": "2026-04-07T10:16:38.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.289353,
+                    "hnId": 47671814,
+                    "title": "Network Flow Algorithms",
+                    "url": "https://www.networkflowalgs.com/",
+                    "score": 54,
+                    "author": "teleforce",
+                    "descendants": 1,
+                    "hnPostedAt": "2026-04-07T07:27:14.000Z"
+                }
+            ]
+        },
+        {
+            "id": "programming-languages",
+            "query": "programming languages",
+            "notes": "Language releases, design, ecosystem news.",
+            "embeddingTokensIn": 2,
+            "embeddingEstimatedCostUsd": 4e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.555572,
+                    "hnId": 47744540,
+                    "title": "A Perfectable Programming Language",
+                    "url": "https://alok.github.io/lean-pages/perfectable-lean/",
+                    "score": 27,
+                    "author": "yuppiemephisto",
+                    "descendants": 5,
+                    "hnPostedAt": "2026-04-12T21:11:24.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.437711,
+                    "hnId": 47732402,
+                    "title": "The APL programming language source code (2012)",
+                    "url": "https://computerhistory.org/blog/the-apl-programming-language-source-code/",
+                    "score": 77,
+                    "author": "tosh",
+                    "descendants": 26,
+                    "hnPostedAt": "2026-04-11T17:34:10.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.322881,
+                    "hnId": 47729634,
+                    "title": "Now is the best time to write code by hand",
+                    "url": "https://sitebloom.ch/writing/now-is-the-best-time-to-write-code-by-hand/",
+                    "score": 105,
+                    "author": "nickgreg",
+                    "descendants": 50,
+                    "hnPostedAt": "2026-04-11T11:24:41.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.296837,
+                    "hnId": 47673171,
+                    "title": "How Complex is my Code?",
+                    "url": "https://philodev.one/posts/2026-04-code-complexity/",
+                    "score": 170,
+                    "author": "speckx",
+                    "descendants": 45,
+                    "hnPostedAt": "2026-04-07T10:44:55.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.290196,
+                    "hnId": 47738827,
+                    "title": "Bring Back Idiomatic Design",
+                    "url": "https://essays.johnloeber.com/p/4-bring-back-idiomatic-design",
+                    "score": 433,
+                    "author": "phil294",
+                    "descendants": 218,
+                    "hnPostedAt": "2026-04-12T12:21:26.000Z"
+                }
+            ]
+        },
+        {
+            "id": "ai-startups",
+            "query": "AI startups",
+            "notes": "Founders, funding, launches, AI product news.",
+            "embeddingTokensIn": 2,
+            "embeddingEstimatedCostUsd": 4e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.476946,
+                    "hnId": 47743700,
+                    "title": "European AI. A playbook to own it",
+                    "url": "https://europe.mistral.ai/",
+                    "score": 134,
+                    "author": "hjouneau",
+                    "descendants": 67,
+                    "hnPostedAt": "2026-04-12T19:51:06.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.457089,
+                    "hnId": 47745120,
+                    "title": "Tech valuations are back to pre-AI boom levels",
+                    "url": "https://www.apollo.com/wealth/the-daily-spark/tech-valuations-back-to-pre-ai-boom-levels",
+                    "score": 75,
+                    "author": "akyuu",
+                    "descendants": 10,
+                    "hnPostedAt": "2026-04-12T22:13:22.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.440802,
+                    "hnId": 47730194,
+                    "title": "Cirrus Labs to join OpenAI",
+                    "url": "https://cirruslabs.org/",
+                    "score": 277,
+                    "author": "seekdeep",
+                    "descendants": 139,
+                    "hnPostedAt": "2026-04-11T13:01:34.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.417912,
+                    "hnId": 47736555,
+                    "title": "I run multiple $10K MRR companies on a $20/month tech stack",
+                    "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack",
+                    "score": 812,
+                    "author": "tradertef",
+                    "descendants": 464,
+                    "hnPostedAt": "2026-04-12T06:00:00.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.409746,
+                    "hnId": 47741634,
+                    "title": "Building a SaaS in 2026 Using Only EU Infrastructure",
+                    "url": "https://eualternative.eu/guides/building-saas-eu-stack/",
+                    "score": 170,
+                    "author": "sparkling",
+                    "descendants": 56,
+                    "hnPostedAt": "2026-04-12T16:33:19.000Z"
+                }
+            ]
+        },
+        {
+            "id": "postgres-queue",
+            "query": "Postgres queue health",
+            "notes": "Positive control. Should strongly match 'Keeping a Postgres Queue Healthy'.",
+            "embeddingTokensIn": 4,
+            "embeddingEstimatedCostUsd": 8e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.850168,
+                    "hnId": 47731838,
+                    "title": "Keeping a Postgres Queue Healthy",
+                    "url": "https://planetscale.com/blog/keeping-a-postgres-queue-healthy",
+                    "score": 104,
+                    "author": "tanelpoder",
+                    "descendants": 26,
+                    "hnPostedAt": "2026-04-11T16:24:08.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.289663,
+                    "hnId": 47739260,
+                    "title": "Pro Max 5x quota exhausted in 1.5 hours despite moderate usage",
+                    "url": "https://github.com/anthropics/claude-code/issues/45756",
+                    "score": 512,
+                    "author": "cmaster11",
+                    "descendants": 475,
+                    "hnPostedAt": "2026-04-12T13:15:31.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.256535,
+                    "hnId": 47743077,
+                    "title": "Claude Opus 4.6 accuracy on BridgeBench hallucination test drops from 83% to 68%",
+                    "url": "https://twitter.com/bridgemindai/status/2043321284113670594",
+                    "score": 31,
+                    "author": "bratao",
+                    "descendants": 1,
+                    "hnPostedAt": "2026-04-12T18:53:35.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.255432,
+                    "hnId": 47693559,
+                    "title": "Surelock: Deadlock-Free Mutexes for Rust",
+                    "url": "https://notes.brooklynzelenka.com/Blog/Surelock",
+                    "score": 240,
+                    "author": "codetheweb",
+                    "descendants": 78,
+                    "hnPostedAt": "2026-04-08T17:36:19.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.25146,
+                    "hnId": 47736476,
+                    "title": "Anthropic downgraded cache TTL on March 6th",
+                    "url": "https://github.com/anthropics/claude-code/issues/46829",
+                    "score": 462,
+                    "author": "lsdmtme",
+                    "descendants": 356,
+                    "hnPostedAt": "2026-04-12T05:45:52.000Z"
+                }
+            ]
+        },
+        {
+            "id": "openai-acquisition",
+            "query": "company joining OpenAI",
+            "notes": "Positive control. Should strongly match 'Cirrus Labs to join OpenAI'.",
+            "embeddingTokensIn": 4,
+            "embeddingEstimatedCostUsd": 8e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.708835,
+                    "hnId": 47730194,
+                    "title": "Cirrus Labs to join OpenAI",
+                    "url": "https://cirruslabs.org/",
+                    "score": 277,
+                    "author": "seekdeep",
+                    "descendants": 139,
+                    "hnPostedAt": "2026-04-11T13:01:34.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.405302,
+                    "hnId": 47743700,
+                    "title": "European AI. A playbook to own it",
+                    "url": "https://europe.mistral.ai/",
+                    "score": 134,
+                    "author": "hjouneau",
+                    "descendants": 67,
+                    "hnPostedAt": "2026-04-12T19:51:06.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.34201,
+                    "hnId": 47733217,
+                    "title": "Exploiting the most prominent AI agent benchmarks",
+                    "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
+                    "score": 488,
+                    "author": "Anon84",
+                    "descendants": 124,
+                    "hnPostedAt": "2026-04-11T19:15:56.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.318145,
+                    "hnId": 47741449,
+                    "title": "SpaceX holds $603M in Bitcoin despite $5B loss stemming from xAI",
+                    "url": "https://www.coindesk.com/markets/2026/04/11/musk-s-spacex-holds-usd603-million-in-bitcoin-despite-usd5-billion-loss-stemming-from-xai",
+                    "score": 22,
+                    "author": "lexandstuff",
+                    "descendants": 8,
+                    "hnPostedAt": "2026-04-12T16:16:54.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.313459,
+                    "hnId": 47744544,
+                    "title": "AI Is Not a Labor Crisis. It Is a Meaning Crisis",
+                    "url": "https://twitter.com/lessin/status/2043370537280532771",
+                    "score": 8,
+                    "author": "jger15",
+                    "descendants": 1,
+                    "hnPostedAt": "2026-04-12T21:11:51.000Z"
+                }
+            ]
+        },
+        {
+            "id": "ai-agent-benchmarks",
+            "query": "AI agent benchmarks",
+            "notes": "Positive control. Should strongly match 'Exploiting the most prominent AI agent benchmarks'.",
+            "embeddingTokensIn": 3,
+            "embeddingEstimatedCostUsd": 6e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.765197,
+                    "hnId": 47733217,
+                    "title": "Exploiting the most prominent AI agent benchmarks",
+                    "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
+                    "score": 488,
+                    "author": "Anon84",
+                    "descendants": 124,
+                    "hnPostedAt": "2026-04-11T19:15:56.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.440494,
+                    "hnId": 47743700,
+                    "title": "European AI. A playbook to own it",
+                    "url": "https://europe.mistral.ai/",
+                    "score": 134,
+                    "author": "hjouneau",
+                    "descendants": 67,
+                    "hnPostedAt": "2026-04-12T19:51:06.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.343901,
+                    "hnId": 47744585,
+                    "title": "Distilling 100B+ Models 40x Faster with TRL",
+                    "url": "https://huggingface.co/spaces/HuggingFaceTB/trl-distillation-trainer",
+                    "score": 8,
+                    "author": "kashifr",
+                    "descendants": 0,
+                    "hnPostedAt": "2026-04-12T21:15:30.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.342,
+                    "hnId": 47730194,
+                    "title": "Cirrus Labs to join OpenAI",
+                    "url": "https://cirruslabs.org/",
+                    "score": 277,
+                    "author": "seekdeep",
+                    "descendants": 139,
+                    "hnPostedAt": "2026-04-11T13:01:34.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.336526,
+                    "hnId": 47745120,
+                    "title": "Tech valuations are back to pre-AI boom levels",
+                    "url": "https://www.apollo.com/wealth/the-daily-spark/tech-valuations-back-to-pre-ai-boom-levels",
+                    "score": 75,
+                    "author": "akyuu",
+                    "descendants": 10,
+                    "hnPostedAt": "2026-04-12T22:13:22.000Z"
+                }
+            ]
+        },
+        {
+            "id": "eu-saas-infrastructure",
+            "query": "EU infrastructure for SaaS",
+            "notes": "Positive control. Should strongly match 'Building a SaaS in 2026 Using Only EU Infrastructure'.",
+            "embeddingTokensIn": 5,
+            "embeddingEstimatedCostUsd": 1e-7,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.743698,
+                    "hnId": 47741634,
+                    "title": "Building a SaaS in 2026 Using Only EU Infrastructure",
+                    "url": "https://eualternative.eu/guides/building-saas-eu-stack/",
+                    "score": 170,
+                    "author": "sparkling",
+                    "descendants": 56,
+                    "hnPostedAt": "2026-04-12T16:33:19.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.341763,
+                    "hnId": 47743700,
+                    "title": "European AI. A playbook to own it",
+                    "url": "https://europe.mistral.ai/",
+                    "score": 134,
+                    "author": "hjouneau",
+                    "descendants": 67,
+                    "hnPostedAt": "2026-04-12T19:51:06.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.341341,
+                    "hnId": 47736555,
+                    "title": "I run multiple $10K MRR companies on a $20/month tech stack",
+                    "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack",
+                    "score": 812,
+                    "author": "tradertef",
+                    "descendants": 464,
+                    "hnPostedAt": "2026-04-12T06:00:00.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.31311,
+                    "hnId": 47672941,
+                    "title": "Pijul a FOSS distributed version control system",
+                    "url": "https://pijul.org/",
+                    "score": 189,
+                    "author": "kouosi",
+                    "descendants": 29,
+                    "hnPostedAt": "2026-04-07T10:16:38.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.28747,
+                    "hnId": 47730407,
+                    "title": "South Korea introduces universal basic mobile data access",
+                    "url": "https://www.theregister.com/2026/04/10/south_korea_data_access_universal/",
+                    "score": 402,
+                    "author": "saikatsg",
+                    "descendants": 121,
+                    "hnPostedAt": "2026-04-11T13:27:16.000Z"
+                }
+            ]
+        },
+        {
+            "id": "apl-source-code",
+            "query": "APL programming language source code",
+            "notes": "Positive control. Should strongly match 'The APL programming language source code (2012)'.",
+            "embeddingTokensIn": 6,
+            "embeddingEstimatedCostUsd": 1.2e-7,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.864541,
+                    "hnId": 47732402,
+                    "title": "The APL programming language source code (2012)",
+                    "url": "https://computerhistory.org/blog/the-apl-programming-language-source-code/",
+                    "score": 77,
+                    "author": "tosh",
+                    "descendants": 26,
+                    "hnPostedAt": "2026-04-11T17:34:10.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.495039,
+                    "hnId": 47744540,
+                    "title": "A Perfectable Programming Language",
+                    "url": "https://alok.github.io/lean-pages/perfectable-lean/",
+                    "score": 27,
+                    "author": "yuppiemephisto",
+                    "descendants": 5,
+                    "hnPostedAt": "2026-04-12T21:11:24.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.386872,
+                    "hnId": 47731506,
+                    "title": "Advanced Mac Substitute is an API-level reimplementation of 1980s-era Mac OS",
+                    "url": "https://www.v68k.org/advanced-mac-substitute/",
+                    "score": 261,
+                    "author": "zdw",
+                    "descendants": 67,
+                    "hnPostedAt": "2026-04-11T15:39:19.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.372857,
+                    "hnId": 47698455,
+                    "title": "Starfling: A one-tap endless orbital slingshot game in a single HTML file",
+                    "url": "https://playstarfling.com",
+                    "score": 610,
+                    "author": "iceberger2001",
+                    "descendants": 152,
+                    "hnPostedAt": "2026-04-09T01:52:47.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.369179,
+                    "hnId": 47673171,
+                    "title": "How Complex is my Code?",
+                    "url": "https://philodev.one/posts/2026-04-code-complexity/",
+                    "score": 170,
+                    "author": "speckx",
+                    "descendants": 45,
+                    "hnPostedAt": "2026-04-07T10:44:55.000Z"
+                }
+            ]
+        },
+        {
+            "id": "rust-mutexes",
+            "query": "Rust deadlock free mutexes",
+            "notes": "Positive control. Should strongly match 'Surelock: Deadlock-Free Mutexes for Rust'.",
+            "embeddingTokensIn": 6,
+            "embeddingEstimatedCostUsd": 1.2e-7,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.784631,
+                    "hnId": 47693559,
+                    "title": "Surelock: Deadlock-Free Mutexes for Rust",
+                    "url": "https://notes.brooklynzelenka.com/Blog/Surelock",
+                    "score": 240,
+                    "author": "codetheweb",
+                    "descendants": 78,
+                    "hnPostedAt": "2026-04-08T17:36:19.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.452066,
+                    "hnId": 47734878,
+                    "title": "High-Level Rust: Getting 80% of the Benefits with 20% of the Pain",
+                    "url": "https://hamy.xyz/blog/2026-01_high-level-rust",
+                    "score": 61,
+                    "author": "maxloh",
+                    "descendants": 75,
+                    "hnPostedAt": "2026-04-11T23:30:40.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.318815,
+                    "hnId": 47731838,
+                    "title": "Keeping a Postgres Queue Healthy",
+                    "url": "https://planetscale.com/blog/keeping-a-postgres-queue-healthy",
+                    "score": 104,
+                    "author": "tanelpoder",
+                    "descendants": 26,
+                    "hnPostedAt": "2026-04-11T16:24:08.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.232556,
+                    "hnId": 47672941,
+                    "title": "Pijul a FOSS distributed version control system",
+                    "url": "https://pijul.org/",
+                    "score": 189,
+                    "author": "kouosi",
+                    "descendants": 29,
+                    "hnPostedAt": "2026-04-07T10:16:38.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.230461,
+                    "hnId": 47733561,
+                    "title": "447 TB/cm² at zero retention energy – atomic-scale memory on fluorographane",
+                    "url": "https://zenodo.org/records/19513269",
+                    "score": 258,
+                    "author": "iliatoli",
+                    "descendants": 143,
+                    "hnPostedAt": "2026-04-11T20:08:46.000Z"
+                }
+            ]
+        },
+        {
+            "id": "macos-taskbar-dock",
+            "query": "taskbar style dock replacement for macOS",
+            "notes": "Positive control. Should strongly match 'Show HN: boringBar – a taskbar-style dock replacement for macOS'.",
+            "embeddingTokensIn": 7,
+            "embeddingEstimatedCostUsd": 1.4e-7,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.730979,
+                    "hnId": 47742200,
+                    "title": "Show HN: boringBar – a taskbar-style dock replacement for macOS",
+                    "url": "https://boringbar.app/",
+                    "score": 208,
+                    "author": "a-ve",
+                    "descendants": 127,
+                    "hnPostedAt": "2026-04-12T17:25:44.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.441771,
+                    "hnId": 47731506,
+                    "title": "Advanced Mac Substitute is an API-level reimplementation of 1980s-era Mac OS",
+                    "url": "https://www.v68k.org/advanced-mac-substitute/",
+                    "score": 261,
+                    "author": "zdw",
+                    "descendants": 67,
+                    "hnPostedAt": "2026-04-11T15:39:19.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.379313,
+                    "hnId": 47724352,
+                    "title": "Filing the corners off my MacBooks",
+                    "url": "https://kentwalters.com/posts/corners/",
+                    "score": 1360,
+                    "author": "normanvalentine",
+                    "descendants": 647,
+                    "hnPostedAt": "2026-04-10T22:16:40.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.298521,
+                    "hnId": 47744510,
+                    "title": "Microsoft engineer says original Task Manager was only 80KB to run on 90s comps",
+                    "url": "https://www.tomshardware.com/software/windows/veteran-microsoft-engineer-says-original-task-manager-was-only-80kb-so-it-could-run-smoothly-on-90s-computers-original-utility-used-a-smart-technique-to-determine-whether-it-was-the-only-running-instance",
+                    "score": 13,
+                    "author": "thunderbong",
+                    "descendants": 5,
+                    "hnPostedAt": "2026-04-12T21:08:01.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.230523,
+                    "hnId": 47698455,
+                    "title": "Starfling: A one-tap endless orbital slingshot game in a single HTML file",
+                    "url": "https://playstarfling.com",
+                    "score": 610,
+                    "author": "iceberger2001",
+                    "descendants": 152,
+                    "hnPostedAt": "2026-04-09T01:52:47.000Z"
+                }
+            ]
+        },
+        {
+            "id": "mythos-vulnerabilities",
+            "query": "small models vulnerabilities mythos",
+            "notes": "Positive control. Should strongly match 'Small models also found the vulnerabilities that Mythos found'.",
+            "embeddingTokensIn": 5,
+            "embeddingEstimatedCostUsd": 1e-7,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.845568,
+                    "hnId": 47732020,
+                    "title": "Small models also found the vulnerabilities that Mythos found",
+                    "url": "https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier",
+                    "score": 1228,
+                    "author": "dominicq",
+                    "descendants": 322,
+                    "hnPostedAt": "2026-04-11T16:47:28.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.311488,
+                    "hnId": 47744585,
+                    "title": "Distilling 100B+ Models 40x Faster with TRL",
+                    "url": "https://huggingface.co/spaces/HuggingFaceTB/trl-distillation-trainer",
+                    "score": 8,
+                    "author": "kashifr",
+                    "descendants": 0,
+                    "hnPostedAt": "2026-04-12T21:15:30.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.300156,
+                    "hnId": 47733217,
+                    "title": "Exploiting the most prominent AI agent benchmarks",
+                    "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
+                    "score": 488,
+                    "author": "Anon84",
+                    "descendants": 124,
+                    "hnPostedAt": "2026-04-11T19:15:56.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.297437,
+                    "hnId": 47737376,
+                    "title": "Phyphox – Physical Experiments Using a Smartphone",
+                    "url": "https://phyphox.org/",
+                    "score": 179,
+                    "author": "_Microft",
+                    "descendants": 30,
+                    "hnPostedAt": "2026-04-12T08:38:11.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.286569,
+                    "hnId": 47745230,
+                    "title": "Sam Altman's home targeted in second attack",
+                    "url": "https://sfstandard.com/2026/04/12/sam-altman-s-home-targeted-second-attack/",
+                    "score": 48,
+                    "author": "babelfish",
+                    "descendants": 70,
+                    "hnPostedAt": "2026-04-12T22:30:55.000Z"
+                }
+            ]
+        },
+        {
+            "id": "macbook-corners",
+            "query": "MacBook corners",
+            "notes": "Positive control. Should strongly match 'Filing the corners off my MacBooks'.",
+            "embeddingTokensIn": 3,
+            "embeddingEstimatedCostUsd": 6e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.75929,
+                    "hnId": 47724352,
+                    "title": "Filing the corners off my MacBooks",
+                    "url": "https://kentwalters.com/posts/corners/",
+                    "score": 1360,
+                    "author": "normanvalentine",
+                    "descendants": 647,
+                    "hnPostedAt": "2026-04-10T22:16:40.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.373793,
+                    "hnId": 47742200,
+                    "title": "Show HN: boringBar – a taskbar-style dock replacement for macOS",
+                    "url": "https://boringbar.app/",
+                    "score": 208,
+                    "author": "a-ve",
+                    "descendants": 127,
+                    "hnPostedAt": "2026-04-12T17:25:44.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.342804,
+                    "hnId": 47731506,
+                    "title": "Advanced Mac Substitute is an API-level reimplementation of 1980s-era Mac OS",
+                    "url": "https://www.v68k.org/advanced-mac-substitute/",
+                    "score": 261,
+                    "author": "zdw",
+                    "descendants": 67,
+                    "hnPostedAt": "2026-04-11T15:39:19.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.292763,
+                    "hnId": 47719968,
+                    "title": "Compute iOS XNU offset from kernel cache",
+                    "url": "https://blog.reversesociety.co/blog/2026/kernel-rw-not-enough-extract-offsets-from-xnu-kernelcaches",
+                    "score": 28,
+                    "author": "tonygo",
+                    "descendants": 0,
+                    "hnPostedAt": "2026-04-10T15:51:21.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.264823,
+                    "hnId": 47741544,
+                    "title": "Jim Allchin to Gates and Ballmer on the state of quality at Microsoft (2004)",
+                    "url": "https://twitter.com/TechEmails/status/1418248256937775105",
+                    "score": 5,
+                    "author": "Austin_Conlon",
+                    "descendants": 3,
+                    "hnPostedAt": "2026-04-12T16:25:55.000Z"
+                }
+            ]
+        },
+        {
+            "id": "task-manager-history",
+            "query": "original Task Manager 80KB",
+            "notes": "Positive control. Should strongly match 'Microsoft engineer says original Task Manager was only 80KB to run on 90s comps'.",
+            "embeddingTokensIn": 6,
+            "embeddingEstimatedCostUsd": 1.2e-7,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.749044,
+                    "hnId": 47744510,
+                    "title": "Microsoft engineer says original Task Manager was only 80KB to run on 90s comps",
+                    "url": "https://www.tomshardware.com/software/windows/veteran-microsoft-engineer-says-original-task-manager-was-only-80kb-so-it-could-run-smoothly-on-90s-computers-original-utility-used-a-smart-technique-to-determine-whether-it-was-the-only-running-instance",
+                    "score": 13,
+                    "author": "thunderbong",
+                    "descendants": 5,
+                    "hnPostedAt": "2026-04-12T21:08:01.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.361037,
+                    "hnId": 47742200,
+                    "title": "Show HN: boringBar – a taskbar-style dock replacement for macOS",
+                    "url": "https://boringbar.app/",
+                    "score": 208,
+                    "author": "a-ve",
+                    "descendants": 127,
+                    "hnPostedAt": "2026-04-12T17:25:44.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.326427,
+                    "hnId": 47744585,
+                    "title": "Distilling 100B+ Models 40x Faster with TRL",
+                    "url": "https://huggingface.co/spaces/HuggingFaceTB/trl-distillation-trainer",
+                    "score": 8,
+                    "author": "kashifr",
+                    "descendants": 0,
+                    "hnPostedAt": "2026-04-12T21:15:30.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.316857,
+                    "hnId": 47738094,
+                    "title": "JVM Options Explorer",
+                    "url": "https://chriswhocodes.com/vm-options-explorer.html",
+                    "score": 167,
+                    "author": "0x54MUR41",
+                    "descendants": 71,
+                    "hnPostedAt": "2026-04-12T10:29:26.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.293949,
+                    "hnId": 47739260,
+                    "title": "Pro Max 5x quota exhausted in 1.5 hours despite moderate usage",
+                    "url": "https://github.com/anthropics/claude-code/issues/45756",
+                    "score": 512,
+                    "author": "cmaster11",
+                    "descendants": 475,
+                    "hnPostedAt": "2026-04-12T13:15:31.000Z"
+                }
+            ]
+        },
+        {
+            "id": "email-reputation-gmail",
+            "query": "email reputation Gmail deliverability",
+            "notes": "Positive control. Should strongly match 'We have a 99% email reputation. Gmail disagrees'.",
+            "embeddingTokensIn": 5,
+            "embeddingEstimatedCostUsd": 1e-7,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.667744,
+                    "hnId": 47738978,
+                    "title": "We have a 99% email reputation. Gmail disagrees",
+                    "url": "https://blogfontawesome.wpcomstaging.com/we-have-a-99-email-reputation-gmail-disagrees/",
+                    "score": 162,
+                    "author": "em-bee",
+                    "descendants": 165,
+                    "hnPostedAt": "2026-04-12T12:42:25.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.200322,
+                    "hnId": 47744252,
+                    "title": "I audited Garry's website after he bragged about 37K LOC/day",
+                    "url": "https://twitter.com/Gregorein/status/2038953944475472316",
+                    "score": 8,
+                    "author": "medalblue",
+                    "descendants": 1,
+                    "hnPostedAt": "2026-04-12T20:43:01.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.191147,
+                    "hnId": 47706423,
+                    "title": "An Interview with Pat Gelsinger",
+                    "url": "https://morethanmoore.substack.com/p/an-interview-with-pat-gelsinger-2026",
+                    "score": 104,
+                    "author": "zdw",
+                    "descendants": 62,
+                    "hnPostedAt": "2026-04-09T17:19:10.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.183941,
+                    "hnId": 47736555,
+                    "title": "I run multiple $10K MRR companies on a $20/month tech stack",
+                    "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack",
+                    "score": 812,
+                    "author": "tradertef",
+                    "descendants": 464,
+                    "hnPostedAt": "2026-04-12T06:00:00.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.182775,
+                    "hnId": 47743730,
+                    "title": "Google removes \"Doki Doki Literature Club\" from Google Play",
+                    "url": "https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t",
+                    "score": 243,
+                    "author": "super256",
+                    "descendants": 105,
+                    "hnPostedAt": "2026-04-12T19:53:08.000Z"
+                }
+            ]
+        },
+        {
+            "id": "semantic-merger",
+            "query": "tech merger announcements",
+            "notes": "Semantic test. Zero keyword overlap. Target: 'Cirrus Labs to join OpenAI' (hnId 47730194). Tests whether 'merger' ≈ 'join' and 'tech' bridges to OpenAI/Cirrus Labs.",
+            "embeddingTokensIn": 3,
+            "embeddingEstimatedCostUsd": 6e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.432566,
+                    "hnId": 47745120,
+                    "title": "Tech valuations are back to pre-AI boom levels",
+                    "url": "https://www.apollo.com/wealth/the-daily-spark/tech-valuations-back-to-pre-ai-boom-levels",
+                    "score": 75,
+                    "author": "akyuu",
+                    "descendants": 10,
+                    "hnPostedAt": "2026-04-12T22:13:22.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.376109,
+                    "hnId": 47730194,
+                    "title": "Cirrus Labs to join OpenAI",
+                    "url": "https://cirruslabs.org/",
+                    "score": 277,
+                    "author": "seekdeep",
+                    "descendants": 139,
+                    "hnPostedAt": "2026-04-11T13:01:34.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.347043,
+                    "hnId": 47736555,
+                    "title": "I run multiple $10K MRR companies on a $20/month tech stack",
+                    "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack",
+                    "score": 812,
+                    "author": "tradertef",
+                    "descendants": 464,
+                    "hnPostedAt": "2026-04-12T06:00:00.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.32918,
+                    "hnId": 47706423,
+                    "title": "An Interview with Pat Gelsinger",
+                    "url": "https://morethanmoore.substack.com/p/an-interview-with-pat-gelsinger-2026",
+                    "score": 104,
+                    "author": "zdw",
+                    "descendants": 62,
+                    "hnPostedAt": "2026-04-09T17:19:10.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.313425,
+                    "hnId": 47741544,
+                    "title": "Jim Allchin to Gates and Ballmer on the state of quality at Microsoft (2004)",
+                    "url": "https://twitter.com/TechEmails/status/1418248256937775105",
+                    "score": 5,
+                    "author": "Austin_Conlon",
+                    "descendants": 3,
+                    "hnPostedAt": "2026-04-12T16:25:55.000Z"
+                }
+            ]
+        },
+        {
+            "id": "semantic-ux",
+            "query": "UX principles and conventions",
+            "notes": "Semantic test. Zero keyword overlap. Target: 'Bring Back Idiomatic Design' (hnId 47738827). Requires understanding that 'idiomatic design' is about UX conventions.",
+            "embeddingTokensIn": 4,
+            "embeddingEstimatedCostUsd": 8e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.436538,
+                    "hnId": 47738827,
+                    "title": "Bring Back Idiomatic Design",
+                    "url": "https://essays.johnloeber.com/p/4-bring-back-idiomatic-design",
+                    "score": 433,
+                    "author": "phil294",
+                    "descendants": 218,
+                    "hnPostedAt": "2026-04-12T12:21:26.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.295977,
+                    "hnId": 47674910,
+                    "title": "The Miller Principle (2007)",
+                    "url": "https://puredanger.github.io/tech.puredanger.com/2007/07/11/miller-principle/",
+                    "score": 82,
+                    "author": "FelipeCortez",
+                    "descendants": 52,
+                    "hnPostedAt": "2026-04-07T13:16:36.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.293264,
+                    "hnId": 47743700,
+                    "title": "European AI. A playbook to own it",
+                    "url": "https://europe.mistral.ai/",
+                    "score": 134,
+                    "author": "hjouneau",
+                    "descendants": 67,
+                    "hnPostedAt": "2026-04-12T19:51:06.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.288111,
+                    "hnId": 47741889,
+                    "title": "Show HN: Claudraband – Claude Code for the Power User",
+                    "url": "https://github.com/halfwhey/claudraband",
+                    "score": 85,
+                    "author": "halfwhey",
+                    "descendants": 24,
+                    "hnPostedAt": "2026-04-12T16:55:20.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.269386,
+                    "hnId": 47673171,
+                    "title": "How Complex is my Code?",
+                    "url": "https://philodev.one/posts/2026-04-code-complexity/",
+                    "score": 170,
+                    "author": "speckx",
+                    "descendants": 45,
+                    "hnPostedAt": "2026-04-07T10:44:55.000Z"
+                }
+            ]
+        },
+        {
+            "id": "semantic-bootstrap",
+            "query": "bootstrapped profitable businesses",
+            "notes": "Semantic test. Zero keyword overlap. Target: 'I run multiple $10K MRR companies on a $20/month tech stack' (hnId 47736555). 'bootstrapped' ≈ '$20/month', 'profitable' ≈ '$10K MRR'.",
+            "embeddingTokensIn": 5,
+            "embeddingEstimatedCostUsd": 1e-7,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.46089,
+                    "hnId": 47736555,
+                    "title": "I run multiple $10K MRR companies on a $20/month tech stack",
+                    "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack",
+                    "score": 812,
+                    "author": "tradertef",
+                    "descendants": 464,
+                    "hnPostedAt": "2026-04-12T06:00:00.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.347847,
+                    "hnId": 47730712,
+                    "title": "The Problem That Built an Industry",
+                    "url": "https://ajitem.com/blog/iron-core-part-1-the-problem-that-built-an-industry/",
+                    "score": 142,
+                    "author": "ShaggyHotDog",
+                    "descendants": 48,
+                    "hnPostedAt": "2026-04-11T14:03:03.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.341502,
+                    "hnId": 47745120,
+                    "title": "Tech valuations are back to pre-AI boom levels",
+                    "url": "https://www.apollo.com/wealth/the-daily-spark/tech-valuations-back-to-pre-ai-boom-levels",
+                    "score": 75,
+                    "author": "akyuu",
+                    "descendants": 10,
+                    "hnPostedAt": "2026-04-12T22:13:22.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.330673,
+                    "hnId": 47741449,
+                    "title": "SpaceX holds $603M in Bitcoin despite $5B loss stemming from xAI",
+                    "url": "https://www.coindesk.com/markets/2026/04/11/musk-s-spacex-holds-usd603-million-in-bitcoin-despite-usd5-billion-loss-stemming-from-xai",
+                    "score": 22,
+                    "author": "lexandstuff",
+                    "descendants": 8,
+                    "hnPostedAt": "2026-04-12T16:16:54.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.317876,
+                    "hnId": 47741634,
+                    "title": "Building a SaaS in 2026 Using Only EU Infrastructure",
+                    "url": "https://eualternative.eu/guides/building-saas-eu-stack/",
+                    "score": 170,
+                    "author": "sparkling",
+                    "descendants": 56,
+                    "hnPostedAt": "2026-04-12T16:33:19.000Z"
+                }
+            ]
+        },
+        {
+            "id": "semantic-green-power",
+            "query": "countries going fully green power",
+            "notes": "Semantic test. Zero keyword overlap. Target: 'Seven countries now generate 100% of their electricity from renewable energy' (hnId 47739313). 'green power' ≈ 'renewable energy', 'fully' ≈ '100%'.",
+            "embeddingTokensIn": 5,
+            "embeddingEstimatedCostUsd": 1e-7,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.623493,
+                    "hnId": 47739313,
+                    "title": "Seven countries now generate 100% of their electricity from renewable energy",
+                    "url": "https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html",
+                    "score": 464,
+                    "author": "mpweiher",
+                    "descendants": 232,
+                    "hnPostedAt": "2026-04-12T13:21:39.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.339493,
+                    "hnId": 47741634,
+                    "title": "Building a SaaS in 2026 Using Only EU Infrastructure",
+                    "url": "https://eualternative.eu/guides/building-saas-eu-stack/",
+                    "score": 170,
+                    "author": "sparkling",
+                    "descendants": 56,
+                    "hnPostedAt": "2026-04-12T16:33:19.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.329731,
+                    "hnId": 47744626,
+                    "title": "Maine set to become first state with data center ban",
+                    "url": "https://www.cnbc.com/2026/04/09/maine-data-center-ban.html",
+                    "score": 4,
+                    "author": "eatonphil",
+                    "descendants": 1,
+                    "hnPostedAt": "2026-04-12T21:19:34.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.274894,
+                    "hnId": 47744905,
+                    "title": "India's frugal AI models are a blueprint for resource-strapped nations",
+                    "url": "https://restofworld.org/2026/india-frugal-ai-sarvam-krutrim-sovereign/",
+                    "score": 8,
+                    "author": "i7l",
+                    "descendants": 1,
+                    "hnPostedAt": "2026-04-12T21:47:33.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.24588,
+                    "hnId": 47738514,
+                    "title": "Internet outage in Iran reaches 1,008 hours",
+                    "url": "https://mastodon.social/@netblocks/116384935123261912",
+                    "score": 146,
+                    "author": "miadabdi",
+                    "descendants": 106,
+                    "hnPostedAt": "2026-04-12T11:38:16.000Z"
+                }
+            ]
+        },
+        {
+            "id": "semantic-consciousness",
+            "query": "consciousness in comatose patients",
+            "notes": "Semantic test. Zero keyword overlap. Target: 'Vegetative Patients May Be More Aware Than We Knew' (hnId 47745261). 'consciousness' ≈ 'aware', 'comatose' ≈ 'vegetative'.",
+            "embeddingTokensIn": 7,
+            "embeddingEstimatedCostUsd": 1.4e-7,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.480329,
+                    "hnId": 47745261,
+                    "title": "Vegetative Patients May Be More Aware Than We Knew",
+                    "url": "https://www.nytimes.com/2026/04/09/magazine/vegetative-states-conscious-aware.html",
+                    "score": 7,
+                    "author": "bookofjoe",
+                    "descendants": 1,
+                    "hnPostedAt": "2026-04-12T22:36:36.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.288755,
+                    "hnId": 47743077,
+                    "title": "Claude Opus 4.6 accuracy on BridgeBench hallucination test drops from 83% to 68%",
+                    "url": "https://twitter.com/bridgemindai/status/2043321284113670594",
+                    "score": 31,
+                    "author": "bratao",
+                    "descendants": 1,
+                    "hnPostedAt": "2026-04-12T18:53:35.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.217319,
+                    "hnId": 47733561,
+                    "title": "447 TB/cm² at zero retention energy – atomic-scale memory on fluorographane",
+                    "url": "https://zenodo.org/records/19513269",
+                    "score": 258,
+                    "author": "iliatoli",
+                    "descendants": 143,
+                    "hnPostedAt": "2026-04-11T20:08:46.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.178165,
+                    "hnId": 47744544,
+                    "title": "AI Is Not a Labor Crisis. It Is a Meaning Crisis",
+                    "url": "https://twitter.com/lessin/status/2043370537280532771",
+                    "score": 8,
+                    "author": "jger15",
+                    "descendants": 1,
+                    "hnPostedAt": "2026-04-12T21:11:51.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.157946,
+                    "hnId": 47740315,
+                    "title": "Eternity in six hours: Intergalactic spreading of intelligent life (2013)",
+                    "url": "https://www.researchgate.net/publication/256935390_Eternity_in_six_hours_Intergalactic_spreading_of_intelligent_life_and_sharpening_the_Fermi_paradox",
+                    "score": 50,
+                    "author": "wallflower",
+                    "descendants": 53,
+                    "hnPostedAt": "2026-04-12T14:43:23.000Z"
+                }
+            ]
+        },
+        {
+            "id": "semantic-retro-computing",
+            "query": "retro computing emulation",
+            "notes": "Semantic test. Zero keyword overlap. Target: 'Advanced Mac Substitute is an API-level reimplementation of 1980s-era Mac OS' (hnId 47731506). 'retro' ≈ '1980s-era', 'emulation' ≈ 'reimplementation'.",
+            "embeddingTokensIn": 4,
+            "embeddingEstimatedCostUsd": 8e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.47593,
+                    "hnId": 47737663,
+                    "title": "Intel Xpress Resurrection: Reviving a Forgotten EISA Beast",
+                    "url": "https://x86.fr/intel-xpress-resurrection-reviving-a-forgotten-eisa-beast/",
+                    "score": 21,
+                    "author": "ankitg12",
+                    "descendants": 0,
+                    "hnPostedAt": "2026-04-12T09:32:11.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.434236,
+                    "hnId": 47731506,
+                    "title": "Advanced Mac Substitute is an API-level reimplementation of 1980s-era Mac OS",
+                    "url": "https://www.v68k.org/advanced-mac-substitute/",
+                    "score": 261,
+                    "author": "zdw",
+                    "descendants": 67,
+                    "hnPostedAt": "2026-04-11T15:39:19.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.371174,
+                    "hnId": 47674273,
+                    "title": "The Soul of an Old Machine",
+                    "url": "https://skalski.dev/the-soul-of-an-old-machine/",
+                    "score": 75,
+                    "author": "mskalski",
+                    "descendants": 19,
+                    "hnPostedAt": "2026-04-07T12:30:49.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.362304,
+                    "hnId": 47744510,
+                    "title": "Microsoft engineer says original Task Manager was only 80KB to run on 90s comps",
+                    "url": "https://www.tomshardware.com/software/windows/veteran-microsoft-engineer-says-original-task-manager-was-only-80kb-so-it-could-run-smoothly-on-90s-computers-original-utility-used-a-smart-technique-to-determine-whether-it-was-the-only-running-instance",
+                    "score": 13,
+                    "author": "thunderbong",
+                    "descendants": 5,
+                    "hnPostedAt": "2026-04-12T21:08:01.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.352844,
+                    "hnId": 47739174,
+                    "title": "Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
+                    "url": "https://github.com/rochus-keller/OberonSystem3Native/releases",
+                    "score": 158,
+                    "author": "Rochus",
+                    "descendants": 36,
+                    "hnPostedAt": "2026-04-12T13:06:44.000Z"
+                }
+            ]
+        },
+        {
+            "id": "semantic-app-censorship",
+            "query": "app store content moderation",
+            "notes": "Semantic test. Zero keyword overlap. Target: 'Google removes Doki Doki Literature Club from Google Play' (hnId 47743730). 'content moderation' is the abstract concept; the title is a specific instance.",
+            "embeddingTokensIn": 4,
+            "embeddingEstimatedCostUsd": 8e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.388945,
+                    "hnId": 47743730,
+                    "title": "Google removes \"Doki Doki Literature Club\" from Google Play",
+                    "url": "https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t",
+                    "score": 243,
+                    "author": "super256",
+                    "descendants": 105,
+                    "hnPostedAt": "2026-04-12T19:53:08.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.341009,
+                    "hnId": 47742680,
+                    "title": "Apple has removed most of the towns and villages in Lebanon from Apple maps?",
+                    "url": "https://maps.apple.com/frame?center=33.723388%2C35.614698&span=1.983925%2C4.004193",
+                    "score": 292,
+                    "author": "thepasswordis",
+                    "descendants": 164,
+                    "hnPostedAt": "2026-04-12T18:19:02.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.324081,
+                    "hnId": 47741531,
+                    "title": "Bouncer: Block \"crypto\", \"rage politics\", and more from your X feed using AI",
+                    "url": "https://github.com/imbue-ai/bouncer",
+                    "score": 38,
+                    "author": "steveharing1",
+                    "descendants": 49,
+                    "hnPostedAt": "2026-04-12T16:24:46.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.248933,
+                    "hnId": 47739260,
+                    "title": "Pro Max 5x quota exhausted in 1.5 hours despite moderate usage",
+                    "url": "https://github.com/anthropics/claude-code/issues/45756",
+                    "score": 512,
+                    "author": "cmaster11",
+                    "descendants": 475,
+                    "hnPostedAt": "2026-04-12T13:15:31.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.241166,
+                    "hnId": 47731506,
+                    "title": "Advanced Mac Substitute is an API-level reimplementation of 1980s-era Mac OS",
+                    "url": "https://www.v68k.org/advanced-mac-substitute/",
+                    "score": 261,
+                    "author": "zdw",
+                    "descendants": 67,
+                    "hnPostedAt": "2026-04-11T15:39:19.000Z"
+                }
+            ]
+        },
+        {
+            "id": "semantic-concurrency",
+            "query": "preventing concurrent access bugs",
+            "notes": "Semantic test. Zero keyword overlap. Target: 'Surelock: Deadlock-Free Mutexes for Rust' (hnId 47693559). Query describes the problem; title describes the solution. No shared tokens.",
+            "embeddingTokensIn": 5,
+            "embeddingEstimatedCostUsd": 1e-7,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.430106,
+                    "hnId": 47693559,
+                    "title": "Surelock: Deadlock-Free Mutexes for Rust",
+                    "url": "https://notes.brooklynzelenka.com/Blog/Surelock",
+                    "score": 240,
+                    "author": "codetheweb",
+                    "descendants": 78,
+                    "hnPostedAt": "2026-04-08T17:36:19.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.395281,
+                    "hnId": 47731838,
+                    "title": "Keeping a Postgres Queue Healthy",
+                    "url": "https://planetscale.com/blog/keeping-a-postgres-queue-healthy",
+                    "score": 104,
+                    "author": "tanelpoder",
+                    "descendants": 26,
+                    "hnPostedAt": "2026-04-11T16:24:08.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.313217,
+                    "hnId": 47734878,
+                    "title": "High-Level Rust: Getting 80% of the Benefits with 20% of the Pain",
+                    "url": "https://hamy.xyz/blog/2026-01_high-level-rust",
+                    "score": 61,
+                    "author": "maxloh",
+                    "descendants": 75,
+                    "hnPostedAt": "2026-04-11T23:30:40.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.276639,
+                    "hnId": 47732020,
+                    "title": "Small models also found the vulnerabilities that Mythos found",
+                    "url": "https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier",
+                    "score": 1228,
+                    "author": "dominicq",
+                    "descendants": 322,
+                    "hnPostedAt": "2026-04-11T16:47:28.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.266155,
+                    "hnId": 47738827,
+                    "title": "Bring Back Idiomatic Design",
+                    "url": "https://essays.johnloeber.com/p/4-bring-back-idiomatic-design",
+                    "score": 433,
+                    "author": "phil294",
+                    "descendants": 218,
+                    "hnPostedAt": "2026-04-12T12:21:26.000Z"
+                }
+            ]
+        },
+        {
+            "id": "semantic-homemade-drinks",
+            "query": "homemade carbonated beverages",
+            "notes": "Semantic test. Zero keyword overlap. Target: 'DIY Soft Drinks' (hnId 47741701). 'homemade' ≈ 'DIY', 'carbonated beverages' ≈ 'soft drinks'.",
+            "embeddingTokensIn": 5,
+            "embeddingEstimatedCostUsd": 1e-7,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.686932,
+                    "hnId": 47741701,
+                    "title": "DIY Soft Drinks",
+                    "url": "https://blinry.org/diy-soft-drinks/",
+                    "score": 208,
+                    "author": "_Microft",
+                    "descendants": 47,
+                    "hnPostedAt": "2026-04-12T16:38:43.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.184223,
+                    "hnId": 47744585,
+                    "title": "Distilling 100B+ Models 40x Faster with TRL",
+                    "url": "https://huggingface.co/spaces/HuggingFaceTB/trl-distillation-trainer",
+                    "score": 8,
+                    "author": "kashifr",
+                    "descendants": 0,
+                    "hnPostedAt": "2026-04-12T21:15:30.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.18417,
+                    "hnId": 47672710,
+                    "title": "Floyd's Sampling Algorithm",
+                    "url": "https://buttondown.com/jaffray/archive/floyds-sampling-algorithm/",
+                    "score": 42,
+                    "author": "ibobev",
+                    "descendants": 3,
+                    "hnPostedAt": "2026-04-07T09:39:44.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.178251,
+                    "hnId": 47744598,
+                    "title": "Inventors Who Didn't Invent What They Are Famous for Inventing",
+                    "url": "https://www.wsj.com/tech/us-famous-inventions-inventors-wrong-3d5b0a0f",
+                    "score": 16,
+                    "author": "fortran77",
+                    "descendants": 5,
+                    "hnPostedAt": "2026-04-12T21:16:45.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.178138,
+                    "hnId": 47737376,
+                    "title": "Phyphox – Physical Experiments Using a Smartphone",
+                    "url": "https://phyphox.org/",
+                    "score": 179,
+                    "author": "_Microft",
+                    "descendants": 30,
+                    "hnPostedAt": "2026-04-12T08:38:11.000Z"
+                }
+            ]
+        },
+        {
+            "id": "semantic-rate-limits",
+            "query": "API throttling complaints",
+            "notes": "Semantic test. Zero keyword overlap. Target: 'Pro Max 5x quota exhausted in 1.5 hours despite moderate usage' (hnId 47739260). 'throttling' ≈ 'quota exhausted', 'complaints' captures the tone.",
+            "embeddingTokensIn": 4,
+            "embeddingEstimatedCostUsd": 8e-8,
+            "topResults": [
+                {
+                    "rank": 1,
+                    "similarityScore": 0.455182,
+                    "hnId": 47739260,
+                    "title": "Pro Max 5x quota exhausted in 1.5 hours despite moderate usage",
+                    "url": "https://github.com/anthropics/claude-code/issues/45756",
+                    "score": 512,
+                    "author": "cmaster11",
+                    "descendants": 475,
+                    "hnPostedAt": "2026-04-12T13:15:31.000Z"
+                },
+                {
+                    "rank": 2,
+                    "similarityScore": 0.342646,
+                    "hnId": 47736476,
+                    "title": "Anthropic downgraded cache TTL on March 6th",
+                    "url": "https://github.com/anthropics/claude-code/issues/46829",
+                    "score": 462,
+                    "author": "lsdmtme",
+                    "descendants": 356,
+                    "hnPostedAt": "2026-04-12T05:45:52.000Z"
+                },
+                {
+                    "rank": 3,
+                    "similarityScore": 0.332147,
+                    "hnId": 47671814,
+                    "title": "Network Flow Algorithms",
+                    "url": "https://www.networkflowalgs.com/",
+                    "score": 54,
+                    "author": "teleforce",
+                    "descendants": 1,
+                    "hnPostedAt": "2026-04-07T07:27:14.000Z"
+                },
+                {
+                    "rank": 4,
+                    "similarityScore": 0.312533,
+                    "hnId": 47736555,
+                    "title": "I run multiple $10K MRR companies on a $20/month tech stack",
+                    "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack",
+                    "score": 812,
+                    "author": "tradertef",
+                    "descendants": 464,
+                    "hnPostedAt": "2026-04-12T06:00:00.000Z"
+                },
+                {
+                    "rank": 5,
+                    "similarityScore": 0.299917,
+                    "hnId": 47731838,
+                    "title": "Keeping a Postgres Queue Healthy",
+                    "url": "https://planetscale.com/blog/keeping-a-postgres-queue-healthy",
+                    "score": 104,
+                    "author": "tanelpoder",
+                    "descendants": 26,
+                    "hnPostedAt": "2026-04-11T16:24:08.000Z"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "gercastro-portfolio",
+    "private": true,
+    "engines": {
+        "node": "22.14.0"
+    },
+    "scripts": {
+        "dev": "turbo dev",
+        "build": "turbo build",
+        "lint": "turbo lint"
+    },
+    "devDependencies": {
+        "turbo": "^2"
+    },
+    "packageManager": "pnpm@9.15.0",
+    "pnpm": {
+        "overrides": {
+            "@types/node": "22.14.0"
+        }
+    }
+}
