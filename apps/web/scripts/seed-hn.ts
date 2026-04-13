@@ -17,7 +17,7 @@ const ARTICLE_TTL_DAYS = 30;
 const MAX_SUMMARY_INPUT_CHARS = 12000;
 const MIN_CONTENT_LENGTH = 400;
 const USER_AGENT =
-    "Mozilla/5.0 (compatible; HNInsightsSeeder/1.0; +https://gercastro.xyz)";
+    "Mozilla/5.0 (compatible; HackerNewsRAGAgentSeeder/1.0; +https://gercastro.xyz)";
 
 loadEnvConfig(process.cwd());
 

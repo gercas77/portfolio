@@ -145,13 +145,13 @@ The target deployment runs four containers on a single EC2 instance managed by E
 
 ### web ✅
 
-Next.js application serving the portfolio site and the HN Insights feature.
+Next.js application serving the portfolio site and the **Hacker News RAG Agent** feature.
 
 **Routes:**
 
 - `/` — Portfolio landing
 
-- `/hackernews` — Chat interface for querying recent HN stories
+- `/hackernews` — Hacker News RAG Agent showcase (entry to the chat product)
 
 - `/api/chat` — Chat endpoint. Runs an LLM agent with a `search_hn` tool that queries MongoDB Vector Search (title embeddings) with semantic query + structured filters (date range, score, etc.). Matched articles include their summary (when available) as context for the response
 
@@ -799,10 +799,10 @@ This split is deliberate: for a portfolio-first site, the highest initial risk i
 #### Phase 2 — Portfolio shell + public showcase page ✅
 
 - [x] Portfolio information architecture: rename/reframe the current `Projects` section into a showcase-oriented section
-- [x] Public HN Insights landing page explaining the problem, architecture, and key engineering decisions in English
+- [x] Public Hacker News RAG Agent landing page explaining the problem, architecture, and key engineering decisions in English
 - [x] Routing between portfolio and showcase, with a CTA that leads to the interactive product
 
-**Validation:** a recruiter or reviewer can land on the portfolio, understand who built it, discover HN Insights as the featured showcase, and reach the product entry point without confusion.
+**Validation:** a recruiter or reviewer can land on the portfolio, understand who built it, discover **Hacker News RAG Agent** as the featured showcase, and reach the product entry point without confusion.
 
 #### Phase 3 — Local chat experience over seeded data ✅
 
@@ -846,7 +846,7 @@ This split is deliberate: for a portfolio-first site, the highest initial risk i
 - [x] Multi-stage Dockerfile with Next.js standalone output
 - [ ] First public deployment: portfolio + public showcase + auth-protected chat running on the domain with seeded data
 
-**Validation:** infrastructure resources provisioned via Terraform. CI/CD pipeline validated. First public deployment pending AWS account verification (CloudFront + EC2 ASG creation blocked). Once unblocked: portfolio and public HN landing live on the domain, chat requires Google login, authenticated users interact with seeded-backed product under per-user rate limits.
+**Validation:** infrastructure resources provisioned via Terraform. CI/CD pipeline validated. First public deployment pending AWS account verification (CloudFront + EC2 ASG creation blocked). Once unblocked: portfolio and **Hacker News RAG Agent** public showcase live on the domain, chat requires Google login, authenticated users interact with seeded-backed product under per-user rate limits.
 
 #### Phase 2 — Live ingestion foundation
 

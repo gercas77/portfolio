@@ -49,7 +49,7 @@ Feature plans live under **`documentation/tasks/YYYYMMDD_<slug>/README.md`** (se
 
 | Need | Open |
 |------|------|
-| **System architecture** — layers, ECS services, stack summary, key routes for the HN RAG work | [`.agents/references/architecture.md`](./.agents/references/architecture.md) |
+| **System architecture** — layers, ECS services, stack summary, key routes for Hacker News RAG Agent | [`.agents/references/architecture.md`](./.agents/references/architecture.md) |
 | **Repo status** — domain not live yet, layout, high-level next steps | [`README.md`](./README.md) |
 | **Full product & ops narrative** — delivery phases, costs, deep pipeline/RabbitMQ/MongoDB sections, Terraform walkthrough | [`apps/README.md`](./apps/README.md) |
 

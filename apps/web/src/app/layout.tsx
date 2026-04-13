@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Germán Castro — Senior Fullstack Engineer",
         description:
-            "Portfolio and public work: VacantED, Primer Saque, e-commerce SaaS, Hacker News RAG, and more.",
+            "Portfolio and public work: VacantED, Primer Saque, e-commerce SaaS, Hacker News RAG Agent, and more.",
         url: "https://gercastro.xyz",
     },
 };

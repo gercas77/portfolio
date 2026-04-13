@@ -367,13 +367,13 @@ export default function HNChatPage() {
             {/* Header */}
             <header className="flex items-center justify-between px-4 h-14 border-b border-border/40 bg-background/95 backdrop-blur shrink-0">
                 <div className="flex items-center gap-4">
-                    <Link href="/hackernews" aria-label="Back to HN Insights">
+                    <Link href="/hackernews" aria-label="Back to Hacker News RAG Agent showcase">
                         <Button variant="ghost" size="icon-sm" className="rounded-full">
                             <ArrowLeft className="h-4 w-4" />
                         </Button>
                     </Link>
                     <div>
-                        <h1 className="text-sm font-bold leading-none">HN RAG Agent</h1>
+                        <h1 className="text-sm font-bold leading-none">Hacker News RAG Agent</h1>
                         <p className="text-[10px] text-muted-foreground mt-1">Seeded Dataset · Demo</p>
                     </div>
                 </div>
@@ -651,13 +651,13 @@ function AuthGate() {
         <div className="flex flex-col h-screen bg-background text-foreground">
             <header className="flex items-center px-4 h-14 border-b border-border/40 bg-background/95 backdrop-blur shrink-0">
                 <div className="flex items-center gap-4">
-                    <Link href="/hackernews" aria-label="Back to HN Insights">
+                    <Link href="/hackernews" aria-label="Back to Hacker News RAG Agent showcase">
                         <Button variant="ghost" size="icon-sm" className="rounded-full">
                             <ArrowLeft className="h-4 w-4" />
                         </Button>
                     </Link>
                     <div>
-                        <h1 className="text-sm font-bold leading-none">HN RAG Agent</h1>
+                        <h1 className="text-sm font-bold leading-none">Hacker News RAG Agent</h1>
                         <p className="text-[10px] text-muted-foreground mt-1">Sign in to start</p>
                     </div>
                 </div>

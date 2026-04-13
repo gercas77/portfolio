@@ -13,7 +13,7 @@ import {
     CheckCircle2
 } from "lucide-react";
 
-export default function HNInsightsPage() {
+export default function HackerNewsRagAgentPage() {
     return (
         <div className="flex flex-col min-h-screen bg-background text-foreground">
             {/* Navigation */}

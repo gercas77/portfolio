@@ -10,10 +10,23 @@ For current status, phases, and architecture, see [`apps/README.md`](./apps/READ
 
 ---
 
+## Preview: Hacker News RAG Agent
+
+This repo ships the **Hacker News RAG Agent**: sign in with Google, ask questions in natural language, and get **streamed** answers grounded in retrieved stories with **citations** and optional **execution metadata** (tokens, tool use). Below is a **local** screenshot — the public URL is not live until the first deploy (see status above).
+
+<p align="center">
+  <img src="docs/readme/hn-chat.png" alt="Hacker News RAG Agent: conversation with sourced reply and metadata panel" width="860" />
+</p>
+
+<p align="center"><em>Route: <code>/hackernews/chat</code> · Deep dive: <a href="./apps/README.md"><code>apps/README.md</code></a></em></p>
+
+---
+
 ## Repository layout
 
 ```
 portfolio/
+├── docs/readme/             ← README assets (e.g. hn-chat.png for preview above)
 ├── apps/
 │   └── web/                 ← Next.js site (Dockerfile for ECS; see apps/README)
 ├── documentation/tasks/    ← Dated implementation plans (see .agents/skills/plan-feature)
@@ -39,8 +52,8 @@ portfolio/
 Aligned with the delivery plan in [`apps/README.md`](./apps/README.md) — validation and most **Phase 1** infrastructure work are done; the custom domain is not serving traffic yet.
 
 1. **Unblock AWS account verification** — Enable CloudFront distribution and EC2 auto scaling that the Terraform plan expects, so the stack can serve HTTPS on `gercastro.xyz`.
-2. **First public deployment** — Run the GitHub Actions deploy pipeline end to end and ship the portfolio plus Hacker News showcase and auth-protected chat against seeded data on the domain.
-3. **Phase 2–3 (Hacker News product)** — Live event-driven pipeline: RabbitMQ, Redis, ingestor / embedder / fetcher / summarizer containers; replace validation-only assumptions with continuous data (see apps README for the full checklist).
+2. **First public deployment** — Run the GitHub Actions deploy pipeline end to end and ship the portfolio plus Hacker News RAG Agent (showcase + auth-protected chat) against seeded data on the domain.
+3. **Phase 2–3 (Hacker News RAG Agent)** — Live event-driven pipeline: RabbitMQ, Redis, ingestor / embedder / fetcher / summarizer containers; replace validation-only assumptions with continuous data (see apps README for the full checklist).
 4. **Phase 4** — Production observability (e.g. Langfuse, tighter CloudWatch usage) on the live path.
 5. **Portfolio polish** — Landing design (hero, typography, motion) and copy in `apps/web` (e.g. `src/lib/site.ts`) as positioning evolves.
 6. **Agent workflows** — Skills under **`.agents/skills/`**; extra focused docs under **`.agents/references/`**. See **`AGENTS.md`** for commands, paths, and which doc to open when; feature plans under **`documentation/tasks/`**.

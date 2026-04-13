@@ -1,10 +1,10 @@
-# Hacker News RAG — architecture (target design)
+# Hacker News RAG Agent — architecture (target design)
 
 Companion to the Next.js app in [`apps/web/`](../../apps/web). The full narrative, costs, and delivery checklist live in [`apps/README.md`](../../apps/README.md). **Use this file** when you need **system shape, layers, and service boundaries** without loading the entire apps README.
 
 ## Scope
 
-Event-driven ingestion of Hacker News stories, enrichment (content, embeddings, summaries), and a **RAG chat** over MongoDB Vector Search + OpenAI. The sections below describe the **target** deployment. **What is implemented today** is mostly the **web** app (portfolio + HN UI + `/api/chat` over **seeded** data); pipeline containers and RabbitMQ/Redis are **Phase 2–3** (see status in `apps/README.md`).
+Event-driven ingestion of Hacker News stories, enrichment (content, embeddings, summaries), and a **RAG chat** over MongoDB Vector Search + OpenAI. The sections below describe the **target** deployment. **What is implemented today** is mostly the **web** app (portfolio + Hacker News RAG Agent UI + `/api/chat` over **seeded** data); pipeline containers and RabbitMQ/Redis are **Phase 2–3** (see status in `apps/README.md`).
 
 ---
 
@@ -53,7 +53,7 @@ Embedding and fetch run in parallel from `story.created`. Summarization runs aft
 | Route | Role |
 |-------|------|
 | `/` | Portfolio landing |
-| `/hackernews` | HN Insights showcase |
+| `/hackernews` | Hacker News RAG Agent showcase |
 | `/hackernews/chat` | Authenticated chat UI |
 | `/api/chat` | Streaming chat + `search_hn` tool → MongoDB |
 | `/api/auth/*` | NextAuth |
