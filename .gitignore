@@ -56,3 +56,4 @@ infra/**/*_override.tf.json
 
 # Misc
 *.pem
+mcp.json
