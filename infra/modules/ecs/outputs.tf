@@ -10,7 +10,7 @@ output "cluster_arn" {
 
 output "service_name" {
     description = "ECS web service name"
-    value       = var.deploy_service ? aws_ecs_service.web[0].name : ""
+    value       = aws_ecs_service.web.name
 }
 
 output "alb_dns_name" {

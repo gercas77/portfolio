@@ -51,9 +51,3 @@ variable "ec2_key_pair_name" {
     type        = string
     default     = ""
 }
-
-variable "deploy_service" {
-    description = "Set to true after the first Docker image has been pushed to ECR"
-    type        = bool
-    default     = false
-}

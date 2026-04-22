@@ -31,16 +31,17 @@ module "secrets" {
 module "ecs" {
     source = "../../modules/ecs"
 
-    name_prefix       = local.name_prefix
-    vpc_id            = module.networking.vpc_id
-    public_subnet_ids = module.networking.public_subnet_ids
-    alb_sg_id         = module.networking.alb_sg_id
-    ecs_sg_id          = module.networking.ecs_sg_id
-    certificate_arn    = module.dns.certificate_arn
+    name_prefix          = local.name_prefix
+    vpc_id               = module.networking.vpc_id
+    public_subnet_ids    = module.networking.public_subnet_ids
+    alb_sg_id            = module.networking.alb_sg_id
+    ecs_sg_id            = module.networking.ecs_sg_id
+    certificate_arn      = module.dns.certificate_arn
     ecr_repository_url = module.ecr.repository_url
-    instance_type      = var.ec2_instance_type
-    key_pair_name      = var.ec2_key_pair_name
-    deploy_service     = var.deploy_service
+    instance_type        = var.ec2_instance_type
+    key_pair_name        = var.ec2_key_pair_name
+    app_secret_arn       = module.secrets.secret_arn
+    public_app_url       = "https://${var.domain_name}"
 }
 
 module "cdn" {
@@ -60,5 +61,4 @@ module "monitoring" {
     ecs_cluster_name = module.ecs.cluster_name
     ecs_service_name = module.ecs.service_name
     alb_arn_suffix   = module.ecs.alb_arn_suffix
-    deploy_service   = var.deploy_service
 }

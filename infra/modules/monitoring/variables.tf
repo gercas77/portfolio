@@ -18,12 +18,6 @@ variable "alb_arn_suffix" {
     type        = string
 }
 
-variable "deploy_service" {
-    description = "Whether ECS service exists (skip service-level alarms if false)"
-    type        = bool
-    default     = false
-}
-
 variable "alarm_email" {
     description = "Email for CloudWatch alarm notifications (optional)"
     type        = string

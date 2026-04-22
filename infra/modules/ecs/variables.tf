@@ -45,8 +45,12 @@ variable "key_pair_name" {
     default     = ""
 }
 
-variable "deploy_service" {
-    description = "Whether to create the ECS service (false on first apply before any image exists in ECR)"
-    type        = bool
-    default     = false
+variable "app_secret_arn" {
+    description = "Secrets Manager secret ARN. Secret value must be JSON with keys: MONGODB_URI, MONGODB_DB_NAME, GOOGLE_OAUTH_CLIENT_ID, GOOGLE_OAUTH_CLIENT_SECRET, OPENAI_API_KEY, NEXTAUTH_SECRET"
+    type        = string
+}
+
+variable "public_app_url" {
+    description = "Public site URL, e.g. https://gercastro.xyz (sets NEXTAUTH_URL in the task)"
+    type        = string
 }

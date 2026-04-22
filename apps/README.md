@@ -2,11 +2,11 @@
 
 I am building an event-driven platform that ingests Hacker News stories in real time, enriches them with article content, generates embeddings, and exposes a conversational AI chat where users can ask questions about recent tech news using RAG (Retrieval-Augmented Generation).
 
-<!-- **Live:** [gercastro.xyz/hackernews](https://gercastro.xyz/hackernews) — uncomment after first public deployment -->
+**Live:** [gercastro.xyz](https://gercastro.xyz) — portfolio and showcase routes; the Hacker News chat and APIs need production secrets in Secrets Manager and (for RAG) appropriate MongoDB/seed data.
 
 ## Current Status
 
-**Validation stage complete. Infrastructure provisioning in progress.**
+**Validation stage complete.** In the **Final Implementation Stage**, **Phase 1** is **complete**: **1.1** (auth, rate limits, protected chat) and **1.2** (Terraform, CI/CD, public URL, Secrets Manager → ECS). What remains in that stage is **Phase 2–4** (live pipeline, enrichment, hardening) — see [Delivery Plan](#delivery-plan).
 
 What's built and working locally:
 
@@ -17,15 +17,15 @@ What's built and working locally:
 
 What's provisioned on AWS (Terraform):
 
-- VPC, ALB, ECS cluster, Route 53 hosted zone, ACM wildcard certificate, ECR, Secrets Manager, CloudWatch dashboard + alarms, WAF
-- CI/CD pipelines (GitHub Actions: PR validation + deploy-on-merge)
+- VPC, EC2 (ASG), ALB, ECS cluster and **web** service, Route 53, ACM wildcard, **CloudFront** + WAF, ECR, Secrets Manager, CloudWatch dashboard + alarms
+- CI/CD (GitHub Actions: PR validation + **deploy on push to `main`**: ECR + ECS)
+- Runtime config: a **Secrets Manager** JSON secret (`<project>-<env>/app-env`) is referenced from the **ECS task definition**; each JSON key is injected as a container environment variable. `NODE_ENV` and `NEXTAUTH_URL` are set in the task (not in the secret file).
 - Multi-stage Dockerfile with Next.js standalone output
 
 What's not built yet:
 
-- First public deployment (blocked on AWS account verification for CloudFront + EC2)
 - Live event-driven pipeline (ingestor, embedder, fetcher, summarizer, RabbitMQ, Redis) — Phase 2-3
-- Production observability (Langfuse integration, CloudWatch Insights queries) — Phase 4
+- Production observability (Langfuse integration, optional CloudFront access logs, deeper CloudWatch Insights) — Phase 4
 
 The architecture sections below describe the **target system design**. The [Delivery Plan](#delivery-plan) section tracks what I have implemented and what remains.
 
@@ -501,31 +501,31 @@ Each user has a single chat. The conversation is the ordered sequence of `hn_cha
 
 I defined all infrastructure with Terraform in `/infra`, organized as reusable modules (`networking`, `ecs`, `cdn`, `dns`, `ecr`, `secrets`, `monitoring`). Remote state is stored in S3 with DynamoDB locking.
 
-> Provisioned resources are marked ✅. Resources pending AWS account verification are marked ⏳. Resources planned for future phases are marked 📋.
+> Provisioned resources are marked ✅. Resources planned for future phases are marked 📋.
 
 ### AWS Resources
 
 - ✅ **VPC** with public subnets across 2 AZs (no NAT gateway — EC2 instances in public subnets, restricted by security groups)
 
-- ⏳ **EC2** (t3.medium) running ECS-optimized Amazon Linux 2023 AMI, managed by an Auto Scaling Group
+- ✅ **EC2** (e.g. t3.medium) running ECS-optimized Amazon Linux 2023 AMI, managed by an Auto Scaling Group
 
-- ✅ **ECS cluster** with EC2 capacity provider. Currently defines the web service task; pipeline, rabbitmq, and redis task definitions will be added in Phase 2-3
+- ✅ **ECS cluster** with EC2 capacity provider. Currently defines the **web** service task; pipeline, RabbitMQ, and Redis task definitions are 📋 Phase 2-3
 
 - ✅ **ALB** with HTTPS listener (TLS 1.3) + HTTP→HTTPS redirect
 
-- ✅ **ECR** repository for the web image (lifecycle: keep last 5 images). Pipeline ECR will be added in Phase 2
+- ✅ **ECR** repository for the web image (lifecycle: keep last N images). A separate pipeline image is 📋 Phase 2
 
-- ⏳ **CloudFront distribution** as the public edge entrypoint (HTTPS + caching for static assets + origin routing to ALB)
+- ✅ **CloudFront distribution** in front of the ALB (HTTPS, caching for `/_next/static/*`, WAF, origin: ALB)
 
 - ✅ **ACM certificate** (wildcard `*.gercastro.xyz` + apex) with DNS validation via Route 53
 
-- ✅ **Route 53** hosted zone for `gercastro.xyz`
+- ✅ **Route 53** hosted zone for `gercastro.xyz` (A records alias to CloudFront)
 
 - ✅ **Security groups:** ALB accepts HTTP/HTTPS from the internet; EC2 instances accept traffic only from the ALB security group. No direct public access to instances
 
 - ✅ **WAF** web ACL attached to CloudFront: IP rate limiting (2000 req/5min) + AWS managed common rule set
 
-- ✅ **Secrets Manager** for application environment variables (MongoDB URI, OpenAI API key, OAuth credentials)
+- ✅ **Secrets Manager** for application secrets (see ECS task: JSON keys for `MONGODB_URI`, `MONGODB_DB_NAME`, OAuth, `OPENAI_API_KEY`, `NEXTAUTH_SECRET`, etc.; fill the secret in AWS, then deploy)
 
 - ✅ **CloudWatch** dashboard (ECS CPU/memory + ALB requests/errors), CPU utilization alarm, 5xx alarm
 
@@ -782,7 +782,7 @@ Features I consider out of scope for the initial build but recognize as importan
 The target architecture described in this document remains the final destination. I intentionally split delivery into two stages:
 
 1. **Validation stage** — de-risk the product experience, data model, and retrieval quality locally before infrastructure work
-2. **Final implementation stage** — deploy the portfolio/showcase publicly, add auth and rate limiting, and replace the seeded dataset with the live event-driven pipeline
+2. **Final implementation stage** — deploy the portfolio/showcase publicly, add auth and rate limiting, and **then** (Phase 2–4) replace the seeded dataset with the live event-driven pipeline. The **public deploy + auth + infra** slice (**Phase 1.1** + **1.2**) is ✅ **complete**; the live pipeline and hardening work below are still open.
 
 This split is deliberate: for a portfolio-first site, the highest initial risk is not Terraform or ECS wiring — it is whether the showcase actually feels convincing once real-looking data, retrieval, citations, and execution metadata are present in the UI.
 
@@ -827,6 +827,8 @@ This split is deliberate: for a portfolio-first site, the highest initial risk i
 
 ### Final Implementation Stage
 
+Phase **1** of this stage is **done** (**1.1** + **1.2**): the site is public on the domain, the **web** stack runs on AWS, CI/CD deploys from `main`, and runtime configuration is wired through Secrets Manager into the ECS task. The remaining phases in this block are **2–4** (live ingestion → enrichment → hardening).
+
 #### Phase 1.1 — Auth, rate limiting, and protected chat ✅
 
 - [x] NextAuth.js Google login (provider + session management)
@@ -837,16 +839,18 @@ This split is deliberate: for a portfolio-first site, the highest initial risk i
 
 **Validation:** unauthenticated visitors can browse the public showcase. Clicking into the chat shows an auth gate with a Google sign-in button. Authenticated users can chat under a per-user rate limit enforced via MongoDB. The rate limit resets correctly after the window expires.
 
-#### Phase 1.2 — Infrastructure and CI/CD
+#### Phase 1.2 — Infrastructure and CI/CD ✅
 
 - [x] Terraform remote state (S3 + DynamoDB lock table, bootstrapped outside Terraform)
-- [x] Modular Terraform: networking (VPC public-only, no NAT), ECS (EC2 launch type), ALB, Route 53, ACM (wildcard), WAF, Secrets Manager, ECR, CloudWatch
-- [ ] CloudFront distribution + EC2 ASG (blocked on AWS account verification)
+- [x] Modular Terraform: networking (VPC public-only, no NAT), ECS (EC2 launch type), ALB, **CloudFront** + **WAF**, Route 53, ACM (wildcard), Secrets Manager, ECR, CloudWatch; ECS task **secrets** from Secrets Manager JSON; IAM (task execution role, etc.)
+- [x] CloudFront distribution + EC2 ASG + public DNS → live traffic on the domain
 - [x] GitHub Actions CI/CD: `ci.yml` (PR: lint + typecheck), `deploy.yml` (main: lint → Docker build → push ECR → update ECS task def → deploy)
 - [x] Multi-stage Dockerfile with Next.js standalone output
-- [ ] First public deployment: portfolio + public showcase + auth-protected chat running on the domain with seeded data
+- [x] Public URL: site and routes served over HTTPS; **chat and DB-backed features** require the Secrets Manager secret populated and a compatible MongoDB/seed (same app contract as local)
 
-**Validation:** infrastructure resources provisioned via Terraform. CI/CD pipeline validated. First public deployment pending AWS account verification (CloudFront + EC2 ASG creation blocked). Once unblocked: portfolio and **Hacker News RAG Agent** public showcase live on the domain, chat requires Google login, authenticated users interact with seeded-backed product under per-user rate limits.
+**Validation:** end-to-end path User → **CloudFront** → **ALB** → **ECS** task; CI/CD from `main` updates the image. Full **Hacker News RAG** experience on the public domain matches local only once secrets, OAuth redirect URIs, and data (e.g. seeded corpus) are aligned with production.
+
+**Phase 1.2 complete** — this closes **Phase 1** of the Final Implementation Stage (together with 1.1).
 
 #### Phase 2 — Live ingestion foundation
 

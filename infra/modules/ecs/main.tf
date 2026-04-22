@@ -39,11 +39,12 @@ resource "aws_iam_instance_profile" "ecs" {
 resource "aws_iam_role" "ecs_task_execution" {
     name = "${var.name_prefix}-ecs-task-exec"
 
+    # https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_execution_IAM_role.html
     assume_role_policy = jsonencode({
         Version = "2012-10-17"
         Statement = [{
             Effect    = "Allow"
-            Principal = { Service = "ecs.amazonaws.com" }
+            Principal = { Service = "ecs-tasks.amazonaws.com" }
             Action    = "sts:AssumeRole"
         }]
     })
@@ -239,9 +240,20 @@ resource "aws_cloudwatch_log_group" "web" {
     tags = { Name = "${var.name_prefix}-web-logs" }
 }
 
-resource "aws_ecs_task_definition" "web" {
-    count = var.deploy_service ? 1 : 0
+locals {
+    # JSON keys in Secrets Manager must match. ECS valueFrom: arn:...:secret:...:KEY::
+    # https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specifying-sensitive-data-secrets.html
+    app_secret_json_keys = [
+        "MONGODB_URI",
+        "MONGODB_DB_NAME",
+        "GOOGLE_OAUTH_CLIENT_ID",
+        "GOOGLE_OAUTH_CLIENT_SECRET",
+        "OPENAI_API_KEY",
+        "NEXTAUTH_SECRET",
+    ]
+}
 
+resource "aws_ecs_task_definition" "web" {
     family                   = "${var.name_prefix}-web"
     requires_compatibilities = ["EC2"]
     network_mode             = "bridge"
@@ -260,6 +272,16 @@ resource "aws_ecs_task_definition" "web" {
             protocol      = "tcp"
         }]
 
+        environment = [
+            { name = "NODE_ENV", value = "production" },
+            { name = "NEXTAUTH_URL", value = var.public_app_url },
+        ]
+
+        secrets = [for k in local.app_secret_json_keys : {
+            name      = k
+            valueFrom = "${var.app_secret_arn}:${k}::"
+        }]
+
         logConfiguration = {
             logDriver = "awslogs"
             options = {
@@ -276,11 +298,9 @@ resource "aws_ecs_task_definition" "web" {
 # --- ECS Service ---
 
 resource "aws_ecs_service" "web" {
-    count = var.deploy_service ? 1 : 0
-
     name            = "${var.name_prefix}-web"
     cluster         = aws_ecs_cluster.main.id
-    task_definition = aws_ecs_task_definition.web[0].arn
+    task_definition = aws_ecs_task_definition.web.arn
     desired_count   = 1
 
     capacity_provider_strategy {

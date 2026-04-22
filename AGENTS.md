@@ -50,7 +50,7 @@ Feature plans live under **`documentation/tasks/YYYYMMDD_<slug>/README.md`** (se
 | Need | Open |
 |------|------|
 | **System architecture** — layers, ECS services, stack summary, key routes for Hacker News RAG Agent | [`.agents/references/architecture.md`](./.agents/references/architecture.md) |
-| **Repo status** — domain not live yet, layout, high-level next steps | [`README.md`](./README.md) |
+| **Repo status** — live domain, layout, high-level next steps | [`README.md`](./README.md) |
 | **Full product & ops narrative** — delivery phases, costs, deep pipeline/RabbitMQ/MongoDB sections, Terraform walkthrough | [`apps/README.md`](./apps/README.md) |
 
 **Rule of thumb:** start with **`AGENTS.md`** + **`architecture.md`** for backend/HN/infra tasks; open **`apps/README.md`** only when you need delivery-checklist detail, cost tables, or long design rationale.
